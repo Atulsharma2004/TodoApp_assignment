@@ -34,7 +34,7 @@ const Todo = ({ todo, setRefreshList }) => {
     <>
       <div className="col-sm-3 mx-3 my-2 alert bg-light">
         <div className="card-header">
-          {todo.isCompleted ? "Cpmpleted" : "Not Completed"}
+          {todo.isCompleted ? "Completed" : "Not Completed"}
         </div>
         <div className="card-body my-4">
           <h4 className="card-title mb-2">{todo.desc}</h4>
